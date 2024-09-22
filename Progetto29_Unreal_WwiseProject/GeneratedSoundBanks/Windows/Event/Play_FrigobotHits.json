@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3552625942",
+    "Type": "Event",
+    "GUID": "{6D780B2B-0751-416E-BEB6-82B659027F02}",
+    "Language": "SFX",
+    "Hash": "{3CB75510-5F66-2968-93E0-3D2F61EE9763}",
+    "ObjectPath": "Play_FrigobotHits",
+    "ShortName": "Play_FrigobotHits",
+    "Path": "Event/Play_FrigobotHits.bnk",
+    "Media": [
+     {
+      "Id": "147357923",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FrigobotHit2.wav",
+      "Path": "Media/147357923.wem",
+      "CachePath": "SFX/FrigobotHit2_818F3B66.wem"
+     },
+     {
+      "Id": "319155020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FrigobotHit1.wav",
+      "Path": "Media/319155020.wem",
+      "CachePath": "SFX/FrigobotHit1_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3552625942",
+      "Name": "Play_FrigobotHits",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FrigobotHits",
+      "GUID": "{6D780B2B-0751-416E-BEB6-82B659027F02}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "147357923"
+       },
+       {
+        "Id": "319155020"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{50BC1489-BE9C-1A29-1CF2-80AB5954477B}"
+ }
+}

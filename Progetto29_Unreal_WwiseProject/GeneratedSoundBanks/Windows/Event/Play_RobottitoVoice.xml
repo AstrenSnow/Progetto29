@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1120350054" Type="Event" GUID="{D75A7C61-E56F-4F67-8AD9-A531AEBEB6AF}" Language="SFX" Hash="{B61363DB-9DA0-00D8-7868-E72A30DB3590}">
+			<ObjectPath>Play_RobottitoVoice</ObjectPath>
+			<ShortName>Play_RobottitoVoice</ShortName>
+			<Path>Event/Play_RobottitoVoice.bnk</Path>
+			<Media>
+				<File Id="598569625" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>RobottitoVoice.wav</ShortName>
+					<Path>Media/598569625.wem</Path>
+					<CachePath>SFX/RobottitoVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1120350054" Name="Play_RobottitoVoice" ObjectPath="\Events\Default Work Unit\Play_RobottitoVoice" GUID="{D75A7C61-E56F-4F67-8AD9-A531AEBEB6AF}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="598569625"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{58001F65-A844-E287-D157-663A2C725145}</FileHash>
+</SoundBanksInfo>

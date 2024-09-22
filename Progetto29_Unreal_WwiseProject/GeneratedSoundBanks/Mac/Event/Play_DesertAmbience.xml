@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="742517425" Type="Event" GUID="{633D4A20-E2B8-45E4-94CA-E253DFD365DE}" Language="SFX" Hash="{1F82EB3C-AF47-5BD3-2F75-779B3E42F8A0}">
+			<ObjectPath>Play_DesertAmbience</ObjectPath>
+			<ShortName>Play_DesertAmbience</ShortName>
+			<Path>Event/Play_DesertAmbience.bnk</Path>
+			<Media>
+				<File Id="275482945" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>411774__diegolar__desert-silence-at-night.wav</ShortName>
+					<Path>Media/275482945.wem</Path>
+					<CachePath>SFX/411774__diegolar__desert-silence-at-night_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="742517425" Name="Play_DesertAmbience" ObjectPath="\Events\Default Work Unit\Play_DesertAmbience" GUID="{633D4A20-E2B8-45E4-94CA-E253DFD365DE}" DurationType="OneShot" DurationMin="606.89795" DurationMax="606.89795">
+					<MediaRefs>
+						<MediaRef Id="275482945"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B372276D-0927-3817-5C55-3DB062307E16}</FileHash>
+</SoundBanksInfo>

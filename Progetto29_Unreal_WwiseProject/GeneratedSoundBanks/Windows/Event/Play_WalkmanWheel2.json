@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "961215250",
+    "Type": "Event",
+    "GUID": "{718BFC05-6935-4992-9671-27B6A2A2CD4D}",
+    "Language": "SFX",
+    "Hash": "{421A988A-AD51-D7DA-5B77-11E0FEACC3B1}",
+    "ObjectPath": "Play_WalkmanWheel2",
+    "ShortName": "Play_WalkmanWheel2",
+    "Path": "Event/Play_WalkmanWheel2.bnk",
+    "Media": [
+     {
+      "Id": "660247687",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "WalkmanWheel2.wav",
+      "Path": "Media/660247687.wem",
+      "CachePath": "SFX/WalkmanWheel2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "961215250",
+      "Name": "Play_WalkmanWheel2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WalkmanWheel2",
+      "GUID": "{718BFC05-6935-4992-9671-27B6A2A2CD4D}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "4",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "660247687"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B3406BEA-EF87-6793-AB9A-56F069346DBB}"
+ }
+}

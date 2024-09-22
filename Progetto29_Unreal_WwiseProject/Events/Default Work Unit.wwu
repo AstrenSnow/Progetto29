@@ -1,6 +1,262 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{58A1874F-CFAC-4AAA-9582-112DAF9B4CBB}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{58A1874F-CFAC-4AAA-9582-112DAF9B4CBB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{58A1874F-CFAC-4AAA-9582-112DAF9B4CBB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_FrigobotHits" ID="{6D780B2B-0751-416E-BEB6-82B659027F02}">
+					<ChildrenList>
+						<Action Name="" ID="{D7EC0AF0-3194-4196-B48C-7127F929CA01}" ShortID="894556814">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FrigobotHits" ID="{9DA81A2A-5C53-48D6-A88A-39BA348083A1}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FrigobotInsideNoises" ID="{19970127-DC80-4572-96F7-E0E967240779}">
+					<ChildrenList>
+						<Action Name="" ID="{5C184643-4C37-4EDE-AFA5-8DE539D08BA0}" ShortID="535240662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FrigobotInsideNoises" ID="{C2C25916-9C19-4511-BCB3-8F3FEFBBD7B8}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FrigobotClose" ID="{4A78554D-8A57-4E89-A614-AD1CD34C2002}">
+					<ChildrenList>
+						<Action Name="" ID="{9901CB1F-3BF9-4D70-88F2-3EAC30D31FB1}" ShortID="1010907679">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FrigobotClose" ID="{3F61DDE2-19C3-4872-BE8C-277F25CC5AC9}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FrigobotOpen" ID="{2749595D-5535-46B7-9D47-FC2C0FD5DB47}">
+					<ChildrenList>
+						<Action Name="" ID="{CB981BDA-DFC5-4A5B-80F5-3AC05C8D45D3}" ShortID="666259591">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FrigobotOpen" ID="{081AC9B0-840E-49A9-BABA-D60645BBD16C}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FrigobotVoice" ID="{9DD5D896-3DEE-45B3-BBF2-84A08AE593F5}">
+					<ChildrenList>
+						<Action Name="" ID="{FB6C736E-2CB8-41E1-8063-C57FD2368C0A}" ShortID="687910145">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FrigobotVoice" ID="{6D541E58-AB9C-47C5-8559-A448C0F1D967}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LennySteps" ID="{F3C7F481-561D-49C8-AA61-C4E15FA2BE47}">
+					<ChildrenList>
+						<Action Name="" ID="{2754F222-0562-4852-88EE-FD9960CEE637}" ShortID="753449582">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LennySteps" ID="{CB1865E6-5873-4519-94FA-5753AF4A45A0}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LennyVoice" ID="{52D55FDC-A0C0-4FFB-9B6B-F5C24567270D}">
+					<ChildrenList>
+						<Action Name="" ID="{289A6B72-A548-4511-A8D6-526B0C82A414}" ShortID="330424456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LennyVoice" ID="{1D1A6083-F01B-40C5-AF00-2150AA5AE8FE}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RobottitoScreech" ID="{6FE11404-E673-476A-9461-B083CDCB77D9}">
+					<ChildrenList>
+						<Action Name="" ID="{51F91B0D-4053-4A98-B6E3-3AF4E8926AFD}" ShortID="141687828">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RobottitoScreech" ID="{1134E821-9FDE-45F7-9F87-DB391AFD61D8}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RobottitoVoice" ID="{D75A7C61-E56F-4F67-8AD9-A531AEBEB6AF}">
+					<ChildrenList>
+						<Action Name="" ID="{72A78512-0D43-497B-95F1-007B3AE88835}" ShortID="767588807">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RobottitoVoice" ID="{88DB6566-EAF0-4AC8-AC0C-AE143E3C8BFD}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TankameraClick" ID="{17490324-95B0-4EC1-97ED-9EB071A610BD}">
+					<ChildrenList>
+						<Action Name="" ID="{8F7F1142-745D-40C9-AC8C-39B414879A40}" ShortID="507427114">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TankameraClick" ID="{4F221492-FEB5-4C14-8018-8BCAB87538B6}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TankameraFlash" ID="{70481C09-50C5-4EFD-AD6D-E06016F1EF91}">
+					<ChildrenList>
+						<Action Name="" ID="{5CE78C5A-65D1-4259-A78B-4CA187C237C9}" ShortID="151224896">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TankameraFlash" ID="{D1F1E08D-50C8-4CAD-84A7-106EEAF4CAF8}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TankameraStretch" ID="{5F428DA7-920F-4401-83FC-27E04E1A7F4C}">
+					<ChildrenList>
+						<Action Name="" ID="{7C69998C-99C9-4436-8591-F22E0474ED6C}" ShortID="208115281">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TankameraStretch" ID="{6C67D7EE-C756-48F7-AD6B-C478E9923A93}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TankameraVoice" ID="{49CDB1A7-B20C-40A2-B799-33FB6DAEED17}">
+					<ChildrenList>
+						<Action Name="" ID="{E672B7F0-6C76-4856-9BF5-DBE1645E7E9A}" ShortID="686615713">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TankameraVoice" ID="{A50D10AA-98C2-4DD4-8404-1BA19542ED13}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UIDeselect" ID="{2D5E2FCD-A387-4AB4-89F9-2CE73F2E448D}">
+					<ChildrenList>
+						<Action Name="" ID="{BB55079D-564E-4C72-BF59-01738D6BD962}" ShortID="966797529">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UIDeselect" ID="{501E882A-1323-4E8B-BFBD-4F4FF574B264}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UIScanIn" ID="{D753CB66-85D7-448B-A024-1220E82B492A}">
+					<ChildrenList>
+						<Action Name="" ID="{D35A3E28-67A8-40D3-9720-37A04E5815F7}" ShortID="271407226">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UIScanIn" ID="{499AA70F-D4EF-4862-9EC5-25BFD95CCA7C}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UIScanOut" ID="{453DA21D-2C0E-47D1-826C-7E0EA0F35FEB}">
+					<ChildrenList>
+						<Action Name="" ID="{B026CDC9-4CA2-4752-BD69-CFA2171324D9}" ShortID="431773009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UIScanOut" ID="{52F6E03A-3B07-454D-8C80-1DDC133CD41F}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UISelect" ID="{1141CD55-E9C3-49B9-94E2-8DF1EEDA6396}">
+					<ChildrenList>
+						<Action Name="" ID="{BFDE120E-831B-4F95-9487-ABA575425494}" ShortID="565408361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UISelect" ID="{A164E9D1-4034-4315-848C-CDF301411435}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VasobotScreech" ID="{A2272D73-04E8-4245-B513-DE218B2D1A15}">
+					<ChildrenList>
+						<Action Name="" ID="{A52408C7-B2B6-4EC2-BE97-FB64FFFFC022}" ShortID="548382478">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VasobotScreech" ID="{A8237FE4-50E8-4182-AE15-C189FFF1AD4B}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VasobotVoice" ID="{5946D42A-DBC6-48A6-9985-2C8B1500749B}">
+					<ChildrenList>
+						<Action Name="" ID="{89F19A11-86DD-4BB9-A924-E2CB3C674D82}" ShortID="409787486">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VasobotVoice" ID="{E2D42A41-7F44-40AB-BEC0-9DD6E39720F1}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WalkmanVoice" ID="{3BE25627-412D-4BD3-805B-67A501FA0EBA}">
+					<ChildrenList>
+						<Action Name="" ID="{E33A0750-9657-4663-86F6-6A12CE62F6DA}" ShortID="160471172">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WalkmanVoice" ID="{F731C443-A1CE-4E32-A6E0-942DE934ACEA}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WalkmanWheel1" ID="{4879D732-0FC8-4A8F-9E3C-0D82D694BEF4}">
+					<ChildrenList>
+						<Action Name="" ID="{04C0B785-B273-4E4A-8257-F650BFEFDBC0}" ShortID="978965748">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WalkmanWheel1" ID="{08F40576-56BE-41FC-AB90-B15DC6D33AB3}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WalkmanWheel2" ID="{718BFC05-6935-4992-9671-27B6A2A2CD4D}">
+					<ChildrenList>
+						<Action Name="" ID="{C7447368-59CC-4080-9713-F8ED2236D69E}" ShortID="680940869">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WalkmanWheel2" ID="{0C8917D8-20DC-42C9-912C-B414075B763C}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DesertAmbience" ID="{633D4A20-E2B8-45E4-94CA-E253DFD365DE}">
+					<ChildrenList>
+						<Action Name="" ID="{22A26788-5DFE-4AC8-B464-2F216ADF653E}" ShortID="700248545">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DesertAmbience" ID="{55B21926-43B0-4DF6-AEA4-D470A3717582}" WorkUnitID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3209859598" Type="Event" GUID="{9DD5D896-3DEE-45B3-BBF2-84A08AE593F5}" Language="SFX" Hash="{0251F43C-A210-C7DE-55C5-490B655D9132}">
+			<ObjectPath>Play_FrigobotVoice</ObjectPath>
+			<ShortName>Play_FrigobotVoice</ShortName>
+			<Path>Event/Play_FrigobotVoice.bnk</Path>
+			<Media>
+				<File Id="37098885" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotVoice.wav</ShortName>
+					<Path>Media/37098885.wem</Path>
+					<CachePath>SFX/FrigobotVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3209859598" Name="Play_FrigobotVoice" ObjectPath="\Events\Default Work Unit\Play_FrigobotVoice" GUID="{9DD5D896-3DEE-45B3-BBF2-84A08AE593F5}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3.1250114" DurationMax="3.1250114">
+					<MediaRefs>
+						<MediaRef Id="37098885"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{AC29691A-5965-4714-2548-2AD8BA20C806}</FileHash>
+</SoundBanksInfo>

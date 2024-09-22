@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="498405715" Type="Event" GUID="{6FE11404-E673-476A-9461-B083CDCB77D9}" Language="SFX" Hash="{83EE3B76-53A5-202C-BE49-F96D5EF6E689}">
+			<ObjectPath>Play_RobottitoScreech</ObjectPath>
+			<ShortName>Play_RobottitoScreech</ShortName>
+			<Path>Event/Play_RobottitoScreech.bnk</Path>
+			<Media>
+				<File Id="692945261" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>RobottitoScreech.wav</ShortName>
+					<Path>Media/692945261.wem</Path>
+					<CachePath>SFX/RobottitoScreech_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="498405715" Name="Play_RobottitoScreech" ObjectPath="\Events\Default Work Unit\Play_RobottitoScreech" GUID="{6FE11404-E673-476A-9461-B083CDCB77D9}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="1.062517" DurationMax="1.062517">
+					<MediaRefs>
+						<MediaRef Id="692945261"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{22B16361-6ED1-23A8-3076-3C67C7799D26}</FileHash>
+</SoundBanksInfo>

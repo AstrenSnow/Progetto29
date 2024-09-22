@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2315562453" Type="Event" GUID="{5F428DA7-920F-4401-83FC-27E04E1A7F4C}" Language="SFX" Hash="{3D5265F0-D9BB-63DD-7D29-9FE075993D8D}">
+			<ObjectPath>Play_TankameraStretch</ObjectPath>
+			<ShortName>Play_TankameraStretch</ShortName>
+			<Path>Event/Play_TankameraStretch.bnk</Path>
+			<Media>
+				<File Id="722243678" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TankameraStretch.wav</ShortName>
+					<Path>Media/722243678.wem</Path>
+					<CachePath>SFX/TankameraStretch_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2315562453" Name="Play_TankameraStretch" ObjectPath="\Events\Default Work Unit\Play_TankameraStretch" GUID="{5F428DA7-920F-4401-83FC-27E04E1A7F4C}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="722243678"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9D1963A0-E9F2-8C0C-CF2A-1CD3A32958FD}</FileHash>
+</SoundBanksInfo>

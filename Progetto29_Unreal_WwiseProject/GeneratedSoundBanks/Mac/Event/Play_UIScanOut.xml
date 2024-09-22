@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="765007761" Type="Event" GUID="{453DA21D-2C0E-47D1-826C-7E0EA0F35FEB}" Language="SFX" Hash="{73540602-7FF9-E8D6-8F72-CBE0FFEE7A6A}">
+			<ObjectPath>Play_UIScanOut</ObjectPath>
+			<ShortName>Play_UIScanOut</ShortName>
+			<Path>Event/Play_UIScanOut.bnk</Path>
+			<Media>
+				<File Id="538083053" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UIScanOut.wav</ShortName>
+					<Path>Media/538083053.wem</Path>
+					<CachePath>SFX/UIScanOut_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="765007761" Name="Play_UIScanOut" ObjectPath="\Events\Default Work Unit\Play_UIScanOut" GUID="{453DA21D-2C0E-47D1-826C-7E0EA0F35FEB}" DurationType="OneShot" DurationMin="1.1250113" DurationMax="1.1250113">
+					<MediaRefs>
+						<MediaRef Id="538083053"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5D0F2D2F-CA30-D6BD-9B03-29B6B63522FF}</FileHash>
+</SoundBanksInfo>

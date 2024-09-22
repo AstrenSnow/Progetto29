@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3552625942" Type="Event" GUID="{6D780B2B-0751-416E-BEB6-82B659027F02}" Language="SFX" Hash="{3CB75510-5F66-2968-93E0-3D2F61EE9763}">
+			<ObjectPath>Play_FrigobotHits</ObjectPath>
+			<ShortName>Play_FrigobotHits</ShortName>
+			<Path>Event/Play_FrigobotHits.bnk</Path>
+			<Media>
+				<File Id="147357923" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotHit2.wav</ShortName>
+					<Path>Media/147357923.wem</Path>
+					<CachePath>SFX/FrigobotHit2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="319155020" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotHit1.wav</ShortName>
+					<Path>Media/319155020.wem</Path>
+					<CachePath>SFX/FrigobotHit1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3552625942" Name="Play_FrigobotHits" ObjectPath="\Events\Default Work Unit\Play_FrigobotHits" GUID="{6D780B2B-0751-416E-BEB6-82B659027F02}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="147357923"/>
+						<MediaRef Id="319155020"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1A9C4C16-ED51-D27D-5DD4-A861B05F2904}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4080841260",
+    "Type": "Event",
+    "GUID": "{49CDB1A7-B20C-40A2-B799-33FB6DAEED17}",
+    "Language": "SFX",
+    "Hash": "{6CD0E3E5-B37B-6C44-C267-7A4CA017755D}",
+    "ObjectPath": "Play_TankameraVoice",
+    "ShortName": "Play_TankameraVoice",
+    "Path": "Event/Play_TankameraVoice.bnk",
+    "Media": [
+     {
+      "Id": "7963076",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TankameraVoice.wav",
+      "Path": "Media/7963076.wem",
+      "CachePath": "SFX/TankameraVoice_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4080841260",
+      "Name": "Play_TankameraVoice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TankameraVoice",
+      "GUID": "{49CDB1A7-B20C-40A2-B799-33FB6DAEED17}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "3.1250114",
+      "DurationMax": "3.1250114",
+      "MediaRefs": [
+       {
+        "Id": "7963076"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{64F14C5C-1EA1-0D41-AF68-FE6A5A5E24B2}"
+ }
+}

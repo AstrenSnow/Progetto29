@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3510061404" Type="Event" GUID="{4A78554D-8A57-4E89-A614-AD1CD34C2002}" Language="SFX" Hash="{1F3B16A1-5FBD-4D52-DDD7-8310746BCFA2}">
+			<ObjectPath>Play_FrigobotClose</ObjectPath>
+			<ShortName>Play_FrigobotClose</ShortName>
+			<Path>Event/Play_FrigobotClose.bnk</Path>
+			<Media>
+				<File Id="372134066" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotClose.wav</ShortName>
+					<Path>Media/372134066.wem</Path>
+					<CachePath>SFX/FrigobotClose_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3510061404" Name="Play_FrigobotClose" ObjectPath="\Events\Default Work Unit\Play_FrigobotClose" GUID="{4A78554D-8A57-4E89-A614-AD1CD34C2002}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="0.812517" DurationMax="0.812517">
+					<MediaRefs>
+						<MediaRef Id="372134066"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EC6686AC-0AB7-3A23-607E-5C01BC53E151}</FileHash>
+</SoundBanksInfo>

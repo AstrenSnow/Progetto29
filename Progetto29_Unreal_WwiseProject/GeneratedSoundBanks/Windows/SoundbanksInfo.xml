@@ -9,7 +9,234 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="60440862" Type="Event" GUID="{52D55FDC-A0C0-4FFB-9B6B-F5C24567270D}" Language="SFX" Hash="{1E938B32-E4B7-AD10-5F0A-1B0AE1CC92DD}">
+			<ObjectPath>Play_LennyVoice</ObjectPath>
+			<ShortName>Play_LennyVoice</ShortName>
+			<Path>Event/Play_LennyVoice.bnk</Path>
+			<Media>
+				<File Id="457727113" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyVoice.wav</ShortName>
+					<Path>Media/457727113.wem</Path>
+					<CachePath>SFX/LennyVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="60440862" Name="Play_LennyVoice" ObjectPath="\Events\Default Work Unit\Play_LennyVoice" GUID="{52D55FDC-A0C0-4FFB-9B6B-F5C24567270D}" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="457727113"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="85638584" Type="Event" GUID="{70481C09-50C5-4EFD-AD6D-E06016F1EF91}" Language="SFX" Hash="{C3903E89-F668-03B3-6D05-720BC6967D3C}">
+			<ObjectPath>Play_TankameraFlash</ObjectPath>
+			<ShortName>Play_TankameraFlash</ShortName>
+			<Path>Event/Play_TankameraFlash.bnk</Path>
+			<Media>
+				<File Id="272470573" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TankameraFlash.wav</ShortName>
+					<Path>Media/272470573.wem</Path>
+					<CachePath>SFX/TankameraFlash_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="85638584" Name="Play_TankameraFlash" ObjectPath="\Events\Default Work Unit\Play_TankameraFlash" GUID="{70481C09-50C5-4EFD-AD6D-E06016F1EF91}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="272470573"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="91084081" Type="Event" GUID="{F3C7F481-561D-49C8-AA61-C4E15FA2BE47}" Language="SFX" Hash="{761AC4BE-B635-7324-CF8F-9C1202492C34}">
+			<ObjectPath>Play_LennySteps</ObjectPath>
+			<ShortName>Play_LennySteps</ShortName>
+			<Path>Event/Play_LennySteps.bnk</Path>
+			<Media>
+				<File Id="36411385" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyStep2.wav</ShortName>
+					<Path>Media/36411385.wem</Path>
+					<CachePath>SFX/LennyStep2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="731836685" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyStep4.wav</ShortName>
+					<Path>Media/731836685.wem</Path>
+					<CachePath>SFX/LennyStep4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="849254034" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyStep1.wav</ShortName>
+					<Path>Media/849254034.wem</Path>
+					<CachePath>SFX/LennyStep1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1029876831" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyStep3.wav</ShortName>
+					<Path>Media/1029876831.wem</Path>
+					<CachePath>SFX/LennyStep3_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="91084081" Name="Play_LennySteps" ObjectPath="\Events\Default Work Unit\Play_LennySteps" GUID="{F3C7F481-561D-49C8-AA61-C4E15FA2BE47}" DurationType="OneShot" DurationMin="3.1250114" DurationMax="3.1250114">
+					<MediaRefs>
+						<MediaRef Id="36411385"/>
+						<MediaRef Id="731836685"/>
+						<MediaRef Id="849254034"/>
+						<MediaRef Id="1029876831"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="366870017" Type="Event" GUID="{A2272D73-04E8-4245-B513-DE218B2D1A15}" Language="SFX" Hash="{66A43DA0-CADE-D750-AB7B-572426F8A4D0}">
+			<ObjectPath>Play_VasobotScreech</ObjectPath>
+			<ShortName>Play_VasobotScreech</ShortName>
+			<Path>Event/Play_VasobotScreech.bnk</Path>
+			<Media>
+				<File Id="23603521" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>VasobotScreech.wav</ShortName>
+					<Path>Media/23603521.wem</Path>
+					<CachePath>SFX/VasobotScreech_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="366870017" Name="Play_VasobotScreech" ObjectPath="\Events\Default Work Unit\Play_VasobotScreech" GUID="{A2272D73-04E8-4245-B513-DE218B2D1A15}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="1.8728839" DurationMax="1.8728839">
+					<MediaRefs>
+						<MediaRef Id="23603521"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="498405715" Type="Event" GUID="{6FE11404-E673-476A-9461-B083CDCB77D9}" Language="SFX" Hash="{83EE3B76-53A5-202C-BE49-F96D5EF6E689}">
+			<ObjectPath>Play_RobottitoScreech</ObjectPath>
+			<ShortName>Play_RobottitoScreech</ShortName>
+			<Path>Event/Play_RobottitoScreech.bnk</Path>
+			<Media>
+				<File Id="692945261" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>RobottitoScreech.wav</ShortName>
+					<Path>Media/692945261.wem</Path>
+					<CachePath>SFX/RobottitoScreech_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="498405715" Name="Play_RobottitoScreech" ObjectPath="\Events\Default Work Unit\Play_RobottitoScreech" GUID="{6FE11404-E673-476A-9461-B083CDCB77D9}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="1.062517" DurationMax="1.062517">
+					<MediaRefs>
+						<MediaRef Id="692945261"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="742517425" Type="Event" GUID="{633D4A20-E2B8-45E4-94CA-E253DFD365DE}" Language="SFX" Hash="{1F82EB3C-AF47-5BD3-2F75-779B3E42F8A0}">
+			<ObjectPath>Play_DesertAmbience</ObjectPath>
+			<ShortName>Play_DesertAmbience</ShortName>
+			<Path>Event/Play_DesertAmbience.bnk</Path>
+			<Media>
+				<File Id="275482945" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>411774__diegolar__desert-silence-at-night.wav</ShortName>
+					<Path>Media/275482945.wem</Path>
+					<CachePath>SFX/411774__diegolar__desert-silence-at-night_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="742517425" Name="Play_DesertAmbience" ObjectPath="\Events\Default Work Unit\Play_DesertAmbience" GUID="{633D4A20-E2B8-45E4-94CA-E253DFD365DE}" DurationType="OneShot" DurationMin="606.89795" DurationMax="606.89795">
+					<MediaRefs>
+						<MediaRef Id="275482945"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="765007761" Type="Event" GUID="{453DA21D-2C0E-47D1-826C-7E0EA0F35FEB}" Language="SFX" Hash="{73540602-7FF9-E8D6-8F72-CBE0FFEE7A6A}">
+			<ObjectPath>Play_UIScanOut</ObjectPath>
+			<ShortName>Play_UIScanOut</ShortName>
+			<Path>Event/Play_UIScanOut.bnk</Path>
+			<Media>
+				<File Id="538083053" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UIScanOut.wav</ShortName>
+					<Path>Media/538083053.wem</Path>
+					<CachePath>SFX/UIScanOut_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="765007761" Name="Play_UIScanOut" ObjectPath="\Events\Default Work Unit\Play_UIScanOut" GUID="{453DA21D-2C0E-47D1-826C-7E0EA0F35FEB}" DurationType="OneShot" DurationMin="1.1250113" DurationMax="1.1250113">
+					<MediaRefs>
+						<MediaRef Id="538083053"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="949371406" Type="Event" GUID="{D753CB66-85D7-448B-A024-1220E82B492A}" Language="SFX" Hash="{B9154872-F392-9642-C795-157C19CA7C39}">
+			<ObjectPath>Play_UIScanIn</ObjectPath>
+			<ShortName>Play_UIScanIn</ShortName>
+			<Path>Event/Play_UIScanIn.bnk</Path>
+			<Media>
+				<File Id="409416343" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UIScanIn.wav</ShortName>
+					<Path>Media/409416343.wem</Path>
+					<CachePath>SFX/UIScanIn_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="949371406" Name="Play_UIScanIn" ObjectPath="\Events\Default Work Unit\Play_UIScanIn" GUID="{D753CB66-85D7-448B-A024-1220E82B492A}" DurationType="OneShot" DurationMin="1.1250113" DurationMax="1.1250113">
+					<MediaRefs>
+						<MediaRef Id="409416343"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="961215249" Type="Event" GUID="{4879D732-0FC8-4A8F-9E3C-0D82D694BEF4}" Language="SFX" Hash="{31ADF4DE-36DB-B6E4-2BBC-C89EDDE17099}">
+			<ObjectPath>Play_WalkmanWheel1</ObjectPath>
+			<ShortName>Play_WalkmanWheel1</ShortName>
+			<Path>Event/Play_WalkmanWheel1.bnk</Path>
+			<Media>
+				<File Id="394157526" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>WalkmanWheel1.wav</ShortName>
+					<Path>Media/394157526.wem</Path>
+					<CachePath>SFX/WalkmanWheel1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="961215249" Name="Play_WalkmanWheel1" ObjectPath="\Events\Default Work Unit\Play_WalkmanWheel1" GUID="{4879D732-0FC8-4A8F-9E3C-0D82D694BEF4}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="4" DurationMax="4">
+					<MediaRefs>
+						<MediaRef Id="394157526"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="961215250" Type="Event" GUID="{718BFC05-6935-4992-9671-27B6A2A2CD4D}" Language="SFX" Hash="{421A988A-AD51-D7DA-5B77-11E0FEACC3B1}">
+			<ObjectPath>Play_WalkmanWheel2</ObjectPath>
+			<ShortName>Play_WalkmanWheel2</ShortName>
+			<Path>Event/Play_WalkmanWheel2.bnk</Path>
+			<Media>
+				<File Id="660247687" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>WalkmanWheel2.wav</ShortName>
+					<Path>Media/660247687.wem</Path>
+					<CachePath>SFX/WalkmanWheel2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="961215250" Name="Play_WalkmanWheel2" ObjectPath="\Events\Default Work Unit\Play_WalkmanWheel2" GUID="{718BFC05-6935-4992-9671-27B6A2A2CD4D}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="4" DurationMax="4">
+					<MediaRefs>
+						<MediaRef Id="660247687"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1120350054" Type="Event" GUID="{D75A7C61-E56F-4F67-8AD9-A531AEBEB6AF}" Language="SFX" Hash="{B61363DB-9DA0-00D8-7868-E72A30DB3590}">
+			<ObjectPath>Play_RobottitoVoice</ObjectPath>
+			<ShortName>Play_RobottitoVoice</ShortName>
+			<Path>Event/Play_RobottitoVoice.bnk</Path>
+			<Media>
+				<File Id="598569625" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>RobottitoVoice.wav</ShortName>
+					<Path>Media/598569625.wem</Path>
+					<CachePath>SFX/RobottitoVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1120350054" Name="Play_RobottitoVoice" ObjectPath="\Events\Default Work Unit\Play_RobottitoVoice" GUID="{D75A7C61-E56F-4F67-8AD9-A531AEBEB6AF}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="598569625"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{3A42B6FD-DA3D-53A4-9944-71057D8AD647}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -20,9 +247,252 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI" GUID="{8BB4F59B-C1F2-4261-8378-E4C29FA91742}" MaxAttenuation="1000"/>
+				<Bus Id="1942696649" Name="Effects" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects" GUID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" MaxAttenuation="1000"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{4BB0A8E1-53F5-444B-840C-BD00EEDAFA19}" MaxAttenuation="1000"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="1821140902" Type="Event" GUID="{17490324-95B0-4EC1-97ED-9EB071A610BD}" Language="SFX" Hash="{D8FF10B5-1D6B-AF75-F428-957C7A186660}">
+			<ObjectPath>Play_TankameraClick</ObjectPath>
+			<ShortName>Play_TankameraClick</ShortName>
+			<Path>Event/Play_TankameraClick.bnk</Path>
+			<Media>
+				<File Id="659644255" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TankameraClick.wav</ShortName>
+					<Path>Media/659644255.wem</Path>
+					<CachePath>SFX/TankameraClick_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1821140902" Name="Play_TankameraClick" ObjectPath="\Events\Default Work Unit\Play_TankameraClick" GUID="{17490324-95B0-4EC1-97ED-9EB071A610BD}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="659644255"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1834519321" Type="Event" GUID="{2D5E2FCD-A387-4AB4-89F9-2CE73F2E448D}" Language="SFX" Hash="{FD62E7EC-3ADC-9CCB-E157-439A0FBE4B50}">
+			<ObjectPath>Play_UIDeselect</ObjectPath>
+			<ShortName>Play_UIDeselect</ShortName>
+			<Path>Event/Play_UIDeselect.bnk</Path>
+			<Media>
+				<File Id="103350695" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UIDeselect.wav</ShortName>
+					<Path>Media/103350695.wem</Path>
+					<CachePath>SFX/UIDeselect_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1834519321" Name="Play_UIDeselect" ObjectPath="\Events\Default Work Unit\Play_UIDeselect" GUID="{2D5E2FCD-A387-4AB4-89F9-2CE73F2E448D}" DurationType="OneShot" DurationMin="1.75" DurationMax="1.75">
+					<MediaRefs>
+						<MediaRef Id="103350695"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1917742037" Type="Event" GUID="{19970127-DC80-4572-96F7-E0E967240779}" Language="SFX" Hash="{9707BDA9-9B62-62D5-82C6-D022F0968068}">
+			<ObjectPath>Play_FrigobotInsideNoises</ObjectPath>
+			<ShortName>Play_FrigobotInsideNoises</ShortName>
+			<Path>Event/Play_FrigobotInsideNoises.bnk</Path>
+			<Media>
+				<File Id="401754643" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotCling1.wav</ShortName>
+					<Path>Media/401754643.wem</Path>
+					<CachePath>SFX/FrigobotCling1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="601525541" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotCling2.wav</ShortName>
+					<Path>Media/601525541.wem</Path>
+					<CachePath>SFX/FrigobotCling2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1917742037" Name="Play_FrigobotInsideNoises" ObjectPath="\Events\Default Work Unit\Play_FrigobotInsideNoises" GUID="{19970127-DC80-4572-96F7-E0E967240779}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="2" DurationMax="3.25">
+					<MediaRefs>
+						<MediaRef Id="401754643"/>
+						<MediaRef Id="601525541"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2315562453" Type="Event" GUID="{5F428DA7-920F-4401-83FC-27E04E1A7F4C}" Language="SFX" Hash="{3D5265F0-D9BB-63DD-7D29-9FE075993D8D}">
+			<ObjectPath>Play_TankameraStretch</ObjectPath>
+			<ShortName>Play_TankameraStretch</ShortName>
+			<Path>Event/Play_TankameraStretch.bnk</Path>
+			<Media>
+				<File Id="722243678" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TankameraStretch.wav</ShortName>
+					<Path>Media/722243678.wem</Path>
+					<CachePath>SFX/TankameraStretch_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2315562453" Name="Play_TankameraStretch" ObjectPath="\Events\Default Work Unit\Play_TankameraStretch" GUID="{5F428DA7-920F-4401-83FC-27E04E1A7F4C}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="722243678"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3005953256" Type="Event" GUID="{5946D42A-DBC6-48A6-9985-2C8B1500749B}" Language="SFX" Hash="{5F9BB10E-C541-A7DE-64E6-6F8BED12AA14}">
+			<ObjectPath>Play_VasobotVoice</ObjectPath>
+			<ShortName>Play_VasobotVoice</ShortName>
+			<Path>Event/Play_VasobotVoice.bnk</Path>
+			<Media>
+				<File Id="226662005" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>VasobotVoice.wav</ShortName>
+					<Path>Media/226662005.wem</Path>
+					<CachePath>SFX/VasobotVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3005953256" Name="Play_VasobotVoice" ObjectPath="\Events\Default Work Unit\Play_VasobotVoice" GUID="{5946D42A-DBC6-48A6-9985-2C8B1500749B}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3.1250114" DurationMax="3.1250114">
+					<MediaRefs>
+						<MediaRef Id="226662005"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3133851159" Type="Event" GUID="{3BE25627-412D-4BD3-805B-67A501FA0EBA}" Language="SFX" Hash="{8249801A-A973-7028-8574-F67AD207FE8B}">
+			<ObjectPath>Play_WalkmanVoice</ObjectPath>
+			<ShortName>Play_WalkmanVoice</ShortName>
+			<Path>Event/Play_WalkmanVoice.bnk</Path>
+			<Media>
+				<File Id="833767037" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>WalkmanVoice.wav</ShortName>
+					<Path>Media/833767037.wem</Path>
+					<CachePath>SFX/WalkmanVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3133851159" Name="Play_WalkmanVoice" ObjectPath="\Events\Default Work Unit\Play_WalkmanVoice" GUID="{3BE25627-412D-4BD3-805B-67A501FA0EBA}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3.1250114" DurationMax="3.1250114">
+					<MediaRefs>
+						<MediaRef Id="833767037"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3175633480" Type="Event" GUID="{2749595D-5535-46B7-9D47-FC2C0FD5DB47}" Language="SFX" Hash="{392C62D9-A97B-E6A8-2547-3F86BA421B0B}">
+			<ObjectPath>Play_FrigobotOpen</ObjectPath>
+			<ShortName>Play_FrigobotOpen</ShortName>
+			<Path>Event/Play_FrigobotOpen.bnk</Path>
+			<Media>
+				<File Id="886507411" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotOpen.wav</ShortName>
+					<Path>Media/886507411.wem</Path>
+					<CachePath>SFX/FrigobotOpen_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3175633480" Name="Play_FrigobotOpen" ObjectPath="\Events\Default Work Unit\Play_FrigobotOpen" GUID="{2749595D-5535-46B7-9D47-FC2C0FD5DB47}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="0.68750566" DurationMax="0.68750566">
+					<MediaRefs>
+						<MediaRef Id="886507411"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3209859598" Type="Event" GUID="{9DD5D896-3DEE-45B3-BBF2-84A08AE593F5}" Language="SFX" Hash="{0251F43C-A210-C7DE-55C5-490B655D9132}">
+			<ObjectPath>Play_FrigobotVoice</ObjectPath>
+			<ShortName>Play_FrigobotVoice</ShortName>
+			<Path>Event/Play_FrigobotVoice.bnk</Path>
+			<Media>
+				<File Id="37098885" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotVoice.wav</ShortName>
+					<Path>Media/37098885.wem</Path>
+					<CachePath>SFX/FrigobotVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3209859598" Name="Play_FrigobotVoice" ObjectPath="\Events\Default Work Unit\Play_FrigobotVoice" GUID="{9DD5D896-3DEE-45B3-BBF2-84A08AE593F5}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3.1250114" DurationMax="3.1250114">
+					<MediaRefs>
+						<MediaRef Id="37098885"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3510061404" Type="Event" GUID="{4A78554D-8A57-4E89-A614-AD1CD34C2002}" Language="SFX" Hash="{1F3B16A1-5FBD-4D52-DDD7-8310746BCFA2}">
+			<ObjectPath>Play_FrigobotClose</ObjectPath>
+			<ShortName>Play_FrigobotClose</ShortName>
+			<Path>Event/Play_FrigobotClose.bnk</Path>
+			<Media>
+				<File Id="372134066" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotClose.wav</ShortName>
+					<Path>Media/372134066.wem</Path>
+					<CachePath>SFX/FrigobotClose_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3510061404" Name="Play_FrigobotClose" ObjectPath="\Events\Default Work Unit\Play_FrigobotClose" GUID="{4A78554D-8A57-4E89-A614-AD1CD34C2002}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="0.812517" DurationMax="0.812517">
+					<MediaRefs>
+						<MediaRef Id="372134066"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3552625942" Type="Event" GUID="{6D780B2B-0751-416E-BEB6-82B659027F02}" Language="SFX" Hash="{3CB75510-5F66-2968-93E0-3D2F61EE9763}">
+			<ObjectPath>Play_FrigobotHits</ObjectPath>
+			<ShortName>Play_FrigobotHits</ShortName>
+			<Path>Event/Play_FrigobotHits.bnk</Path>
+			<Media>
+				<File Id="147357923" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotHit2.wav</ShortName>
+					<Path>Media/147357923.wem</Path>
+					<CachePath>SFX/FrigobotHit2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="319155020" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotHit1.wav</ShortName>
+					<Path>Media/319155020.wem</Path>
+					<CachePath>SFX/FrigobotHit1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3552625942" Name="Play_FrigobotHits" ObjectPath="\Events\Default Work Unit\Play_FrigobotHits" GUID="{6D780B2B-0751-416E-BEB6-82B659027F02}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="147357923"/>
+						<MediaRef Id="319155020"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3703192648" Type="Event" GUID="{1141CD55-E9C3-49B9-94E2-8DF1EEDA6396}" Language="SFX" Hash="{9B257C3E-D3FF-C4D7-2A32-E0D70BE29053}">
+			<ObjectPath>Play_UISelect</ObjectPath>
+			<ShortName>Play_UISelect</ShortName>
+			<Path>Event/Play_UISelect.bnk</Path>
+			<Media>
+				<File Id="1035924421" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UISelect.wav</ShortName>
+					<Path>Media/1035924421.wem</Path>
+					<CachePath>SFX/UISelect_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3703192648" Name="Play_UISelect" ObjectPath="\Events\Default Work Unit\Play_UISelect" GUID="{1141CD55-E9C3-49B9-94E2-8DF1EEDA6396}" DurationType="OneShot" DurationMin="1.75" DurationMax="1.75">
+					<MediaRefs>
+						<MediaRef Id="1035924421"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4080841260" Type="Event" GUID="{49CDB1A7-B20C-40A2-B799-33FB6DAEED17}" Language="SFX" Hash="{6CD0E3E5-B37B-6C44-C267-7A4CA017755D}">
+			<ObjectPath>Play_TankameraVoice</ObjectPath>
+			<ShortName>Play_TankameraVoice</ShortName>
+			<Path>Event/Play_TankameraVoice.bnk</Path>
+			<Media>
+				<File Id="7963076" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TankameraVoice.wav</ShortName>
+					<Path>Media/7963076.wem</Path>
+					<CachePath>SFX/TankameraVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4080841260" Name="Play_TankameraVoice" ObjectPath="\Events\Default Work Unit\Play_TankameraVoice" GUID="{49CDB1A7-B20C-40A2-B799-33FB6DAEED17}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3.1250114" DurationMax="3.1250114">
+					<MediaRefs>
+						<MediaRef Id="7963076"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A208DD33-9841-BD69-3DC6-922FA00A4531}</FileHash>
+	<FileHash>{4095A719-7F0E-28A7-69BB-7B40C6B96071}</FileHash>
 </SoundBanksInfo>

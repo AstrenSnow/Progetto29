@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="60440862" Type="Event" GUID="{52D55FDC-A0C0-4FFB-9B6B-F5C24567270D}" Language="SFX" Hash="{1E938B32-E4B7-AD10-5F0A-1B0AE1CC92DD}">
+			<ObjectPath>Play_LennyVoice</ObjectPath>
+			<ShortName>Play_LennyVoice</ShortName>
+			<Path>Event/Play_LennyVoice.bnk</Path>
+			<Media>
+				<File Id="457727113" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyVoice.wav</ShortName>
+					<Path>Media/457727113.wem</Path>
+					<CachePath>SFX/LennyVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="60440862" Name="Play_LennyVoice" ObjectPath="\Events\Default Work Unit\Play_LennyVoice" GUID="{52D55FDC-A0C0-4FFB-9B6B-F5C24567270D}" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="457727113"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{36FF098E-34B6-3DBA-E2DC-0739B552AD86}</FileHash>
+</SoundBanksInfo>

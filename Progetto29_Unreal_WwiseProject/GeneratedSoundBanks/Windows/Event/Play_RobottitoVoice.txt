@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1120350054	Play_RobottitoVoice			\Default Work Unit\Play_RobottitoVoice	
+

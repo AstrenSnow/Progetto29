@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "60440862",
+    "Type": "Event",
+    "GUID": "{52D55FDC-A0C0-4FFB-9B6B-F5C24567270D}",
+    "Language": "SFX",
+    "Hash": "{1E938B32-E4B7-AD10-5F0A-1B0AE1CC92DD}",
+    "ObjectPath": "Play_LennyVoice",
+    "ShortName": "Play_LennyVoice",
+    "Path": "Event/Play_LennyVoice.bnk",
+    "Media": [
+     {
+      "Id": "457727113",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LennyVoice.wav",
+      "Path": "Media/457727113.wem",
+      "CachePath": "SFX/LennyVoice_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "60440862",
+      "Name": "Play_LennyVoice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_LennyVoice",
+      "GUID": "{52D55FDC-A0C0-4FFB-9B6B-F5C24567270D}",
+      "DurationType": "OneShot",
+      "DurationMin": "3",
+      "DurationMax": "3",
+      "MediaRefs": [
+       {
+        "Id": "457727113"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F1EB0B50-4586-CDB6-651B-0E377B1F9036}"
+ }
+}

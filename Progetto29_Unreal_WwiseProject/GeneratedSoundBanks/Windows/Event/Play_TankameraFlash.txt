@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85638584	Play_TankameraFlash			\Default Work Unit\Play_TankameraFlash	
+

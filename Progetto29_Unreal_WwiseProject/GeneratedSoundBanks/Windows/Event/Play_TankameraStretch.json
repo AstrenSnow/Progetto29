@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2315562453",
+    "Type": "Event",
+    "GUID": "{5F428DA7-920F-4401-83FC-27E04E1A7F4C}",
+    "Language": "SFX",
+    "Hash": "{3D5265F0-D9BB-63DD-7D29-9FE075993D8D}",
+    "ObjectPath": "Play_TankameraStretch",
+    "ShortName": "Play_TankameraStretch",
+    "Path": "Event/Play_TankameraStretch.bnk",
+    "Media": [
+     {
+      "Id": "722243678",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TankameraStretch.wav",
+      "Path": "Media/722243678.wem",
+      "CachePath": "SFX/TankameraStretch_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2315562453",
+      "Name": "Play_TankameraStretch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TankameraStretch",
+      "GUID": "{5F428DA7-920F-4401-83FC-27E04E1A7F4C}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "722243678"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{748A07C2-18C8-F7C7-57AC-E5B826239CA6}"
+ }
+}

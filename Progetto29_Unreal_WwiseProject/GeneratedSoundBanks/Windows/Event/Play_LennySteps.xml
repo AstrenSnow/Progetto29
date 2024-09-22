@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="91084081" Type="Event" GUID="{F3C7F481-561D-49C8-AA61-C4E15FA2BE47}" Language="SFX" Hash="{761AC4BE-B635-7324-CF8F-9C1202492C34}">
+			<ObjectPath>Play_LennySteps</ObjectPath>
+			<ShortName>Play_LennySteps</ShortName>
+			<Path>Event/Play_LennySteps.bnk</Path>
+			<Media>
+				<File Id="36411385" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyStep2.wav</ShortName>
+					<Path>Media/36411385.wem</Path>
+					<CachePath>SFX/LennyStep2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="731836685" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyStep4.wav</ShortName>
+					<Path>Media/731836685.wem</Path>
+					<CachePath>SFX/LennyStep4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="849254034" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyStep1.wav</ShortName>
+					<Path>Media/849254034.wem</Path>
+					<CachePath>SFX/LennyStep1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1029876831" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LennyStep3.wav</ShortName>
+					<Path>Media/1029876831.wem</Path>
+					<CachePath>SFX/LennyStep3_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="91084081" Name="Play_LennySteps" ObjectPath="\Events\Default Work Unit\Play_LennySteps" GUID="{F3C7F481-561D-49C8-AA61-C4E15FA2BE47}" DurationType="OneShot" DurationMin="3.1250114" DurationMax="3.1250114">
+					<MediaRefs>
+						<MediaRef Id="36411385"/>
+						<MediaRef Id="731836685"/>
+						<MediaRef Id="849254034"/>
+						<MediaRef Id="1029876831"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{061796BE-DF5C-E433-33CC-17C0FE11AF00}</FileHash>
+</SoundBanksInfo>

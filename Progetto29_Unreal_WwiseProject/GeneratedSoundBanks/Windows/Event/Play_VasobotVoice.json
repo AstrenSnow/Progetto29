@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3005953256",
+    "Type": "Event",
+    "GUID": "{5946D42A-DBC6-48A6-9985-2C8B1500749B}",
+    "Language": "SFX",
+    "Hash": "{5F9BB10E-C541-A7DE-64E6-6F8BED12AA14}",
+    "ObjectPath": "Play_VasobotVoice",
+    "ShortName": "Play_VasobotVoice",
+    "Path": "Event/Play_VasobotVoice.bnk",
+    "Media": [
+     {
+      "Id": "226662005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VasobotVoice.wav",
+      "Path": "Media/226662005.wem",
+      "CachePath": "SFX/VasobotVoice_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3005953256",
+      "Name": "Play_VasobotVoice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_VasobotVoice",
+      "GUID": "{5946D42A-DBC6-48A6-9985-2C8B1500749B}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "3.1250114",
+      "DurationMax": "3.1250114",
+      "MediaRefs": [
+       {
+        "Id": "226662005"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{60030FB8-8289-F02A-2B23-4D9B9F0D7345}"
+ }
+}

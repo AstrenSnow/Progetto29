@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="961215249" Type="Event" GUID="{4879D732-0FC8-4A8F-9E3C-0D82D694BEF4}" Language="SFX" Hash="{31ADF4DE-36DB-B6E4-2BBC-C89EDDE17099}">
+			<ObjectPath>Play_WalkmanWheel1</ObjectPath>
+			<ShortName>Play_WalkmanWheel1</ShortName>
+			<Path>Event/Play_WalkmanWheel1.bnk</Path>
+			<Media>
+				<File Id="394157526" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>WalkmanWheel1.wav</ShortName>
+					<Path>Media/394157526.wem</Path>
+					<CachePath>SFX/WalkmanWheel1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="961215249" Name="Play_WalkmanWheel1" ObjectPath="\Events\Default Work Unit\Play_WalkmanWheel1" GUID="{4879D732-0FC8-4A8F-9E3C-0D82D694BEF4}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="4" DurationMax="4">
+					<MediaRefs>
+						<MediaRef Id="394157526"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5A655B76-E450-AD3A-B718-31E6A89D11B6}</FileHash>
+</SoundBanksInfo>

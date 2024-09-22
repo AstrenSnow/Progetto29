@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="85638584" Type="Event" GUID="{70481C09-50C5-4EFD-AD6D-E06016F1EF91}" Language="SFX" Hash="{C3903E89-F668-03B3-6D05-720BC6967D3C}">
+			<ObjectPath>Play_TankameraFlash</ObjectPath>
+			<ShortName>Play_TankameraFlash</ShortName>
+			<Path>Event/Play_TankameraFlash.bnk</Path>
+			<Media>
+				<File Id="272470573" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TankameraFlash.wav</ShortName>
+					<Path>Media/272470573.wem</Path>
+					<CachePath>SFX/TankameraFlash_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="85638584" Name="Play_TankameraFlash" ObjectPath="\Events\Default Work Unit\Play_TankameraFlash" GUID="{70481C09-50C5-4EFD-AD6D-E06016F1EF91}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="272470573"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2506DF45-2DC7-432D-12B7-6C5542E25D0B}</FileHash>
+</SoundBanksInfo>

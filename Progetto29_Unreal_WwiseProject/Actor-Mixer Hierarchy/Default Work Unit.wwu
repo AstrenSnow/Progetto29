@@ -1,6 +1,924 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{21D44671-8FB5-48EF-9D2A-9E1ABAB36483}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="27"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="UI" ID="{C2338E49-C13D-4325-8DC5-142ECCC6C83D}" ShortID="383943593">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Sound Name="UIDeselect" ID="{501E882A-1323-4E8B-BFBD-4F4FF574B264}" ShortID="354925008">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{8BB4F59B-C1F2-4261-8378-E4C29FA91742}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UIDeselect" ID="{95691EBF-2983-4D55-9CF0-C42AC887B965}">
+									<Language>SFX</Language>
+									<AudioFile>UIDeselect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="103350695"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UIDeselect" ID="{95691EBF-2983-4D55-9CF0-C42AC887B965}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UIScanIn" ID="{499AA70F-D4EF-4862-9EC5-25BFD95CCA7C}" ShortID="57824487">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{8BB4F59B-C1F2-4261-8378-E4C29FA91742}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UIScanIn" ID="{71D2A195-D19D-4FE7-B9C9-36673F47F2C8}">
+									<Language>SFX</Language>
+									<AudioFile>UIScanIn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="409416343"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UIScanIn" ID="{71D2A195-D19D-4FE7-B9C9-36673F47F2C8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UIScanOut" ID="{52F6E03A-3B07-454D-8C80-1DDC133CD41F}" ShortID="1032339948">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{8BB4F59B-C1F2-4261-8378-E4C29FA91742}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UIScanOut" ID="{503950C9-CC24-43E5-A07D-9BFDBE579189}">
+									<Language>SFX</Language>
+									<AudioFile>UIScanOut.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="538083053"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UIScanOut" ID="{503950C9-CC24-43E5-A07D-9BFDBE579189}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UISelect" ID="{A164E9D1-4034-4315-848C-CDF301411435}" ShortID="653898093">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{8BB4F59B-C1F2-4261-8378-E4C29FA91742}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UISelect" ID="{2807938A-B488-48A4-9CF3-D9C9BBDBE1C1}">
+									<Language>SFX</Language>
+									<AudioFile>UISelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1035924421"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UISelect" ID="{2807938A-B488-48A4-9CF3-D9C9BBDBE1C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Bots" ID="{B1324488-32C9-4FA1-952F-41F36776DF24}" ShortID="493764749">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Lenny" ID="{5D406940-3BAD-4435-9730-11638207F99E}" ShortID="82416602">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="LennyVoice" ID="{1D1A6083-F01B-40C5-AF00-2150AA5AE8FE}" ShortID="260554082">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LennyVoice" ID="{6789DAD8-609F-4D7A-92A3-B26E62D5ED2F}">
+											<Language>SFX</Language>
+											<AudioFile>LennyVoice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="457727113"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LennyVoice" ID="{6789DAD8-609F-4D7A-92A3-B26E62D5ED2F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="LennySteps" ID="{CB1865E6-5873-4519-94FA-5753AF4A45A0}" ShortID="146617665">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="LennyStep2" ID="{E5CEA841-1A51-4DEA-93C1-48776AF447F2}" ShortID="993449754">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LennyStep2" ID="{E2EA3A51-5C0E-49B1-B630-3917CF869C57}">
+													<Language>SFX</Language>
+													<AudioFile>LennyStep2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="36411385"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LennyStep2" ID="{E2EA3A51-5C0E-49B1-B630-3917CF869C57}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="LennyStep3" ID="{F318FEF1-F193-409D-8B8C-FD40498E8C02}" ShortID="620997470">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LennyStep3" ID="{29F6E954-C890-4DAE-B38D-A19F6E492B3B}">
+													<Language>SFX</Language>
+													<AudioFile>LennyStep3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1029876831"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LennyStep3" ID="{29F6E954-C890-4DAE-B38D-A19F6E492B3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="LennyStep4" ID="{6B49C4B0-FC2F-46B1-B930-E9D6DF0729EC}" ShortID="140487618">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LennyStep4" ID="{0AD49117-CCC1-408E-A713-B5E089F66953}">
+													<Language>SFX</Language>
+													<AudioFile>LennyStep4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="731836685"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LennyStep4" ID="{0AD49117-CCC1-408E-A713-B5E089F66953}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="LennyStep1" ID="{588C2212-E325-484A-9910-83EC1313D64B}" ShortID="958499360">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LennyStep1" ID="{BCD51E47-0024-47A6-A703-3F07D1792DDD}">
+													<Language>SFX</Language>
+													<AudioFile>LennyStep1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="849254034"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LennyStep1" ID="{BCD51E47-0024-47A6-A703-3F07D1792DDD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Frigobot" ID="{990695DB-2AC9-4FC3-AA3D-300E80C33114}" ShortID="541938261">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="FrigobotClose" ID="{3F61DDE2-19C3-4872-BE8C-277F25CC5AC9}" ShortID="902696328">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FrigobotClose" ID="{01E13F79-8D8B-4959-B395-2A1E5116C859}">
+											<Language>SFX</Language>
+											<AudioFile>FrigobotClose.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="372134066"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FrigobotClose" ID="{01E13F79-8D8B-4959-B395-2A1E5116C859}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FrigobotOpen" ID="{081AC9B0-840E-49A9-BABA-D60645BBD16C}" ShortID="125621836">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FrigobotOpen" ID="{7B4F3A8A-428A-43F6-A0A5-DF57A78586DA}">
+											<Language>SFX</Language>
+											<AudioFile>FrigobotOpen.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="886507411"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FrigobotOpen" ID="{7B4F3A8A-428A-43F6-A0A5-DF57A78586DA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FrigobotVoice" ID="{6D541E58-AB9C-47C5-8559-A448C0F1D967}" ShortID="588627572">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FrigobotVoice" ID="{BA1905C2-F106-49CF-99E8-B8291DAA4C8C}">
+											<Language>SFX</Language>
+											<AudioFile>FrigobotVoice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="37098885"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FrigobotVoice" ID="{BA1905C2-F106-49CF-99E8-B8291DAA4C8C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="FrigobotInsideNoises" ID="{C2C25916-9C19-4511-BCB3-8F3FEFBBD7B8}" ShortID="517419772">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FrigobotCling1" ID="{BD23FD91-A64C-4623-B5D4-66DDE89ECD37}" ShortID="671963339">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FrigobotCling1" ID="{6788E364-3FE8-4726-AFFB-6B5F4CC41E7F}">
+													<Language>SFX</Language>
+													<AudioFile>FrigobotCling1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="401754643"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FrigobotCling1" ID="{6788E364-3FE8-4726-AFFB-6B5F4CC41E7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FrigobotCling2" ID="{E4974655-383C-4297-A37E-59DB174D0242}" ShortID="360689940">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FrigobotCling2" ID="{97020DC3-E2EA-4EE5-9FAA-3EB712D6A545}">
+													<Language>SFX</Language>
+													<AudioFile>FrigobotCling2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="601525541"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FrigobotCling2" ID="{97020DC3-E2EA-4EE5-9FAA-3EB712D6A545}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{C1E8B84E-9559-4A50-B738-29BC9FFBACBE}"/>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FrigobotHits" ID="{9DA81A2A-5C53-48D6-A88A-39BA348083A1}" ShortID="203905427">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FrigobotHit2" ID="{66FE55A9-D018-48F5-A1BC-74C209188ADE}" ShortID="471134933">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FrigobotHit2" ID="{311D2A5F-F2A0-4490-91C6-D9972C608186}">
+													<Language>SFX</Language>
+													<AudioFile>FrigobotHit2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="147357923"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FrigobotHit2" ID="{311D2A5F-F2A0-4490-91C6-D9972C608186}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FrigobotHit1" ID="{B1028F88-50E0-4F47-BC91-95DC873AD759}" ShortID="667478026">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FrigobotHit1" ID="{9C814907-0762-41F4-B515-7111799AFA73}">
+													<Language>SFX</Language>
+													<AudioFile>FrigobotHit1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="319155020"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FrigobotHit1" ID="{9C814907-0762-41F4-B515-7111799AFA73}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Vasobot" ID="{643090CA-AA2B-46C2-A618-F5FCF2F778FB}" ShortID="235628445">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="VasobotScreech" ID="{A8237FE4-50E8-4182-AE15-C189FFF1AD4B}" ShortID="399722457">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>500</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VasobotScreech" ID="{57E5F31C-0512-439B-860D-7B4F21C01267}">
+											<Language>SFX</Language>
+											<AudioFile>VasobotScreech.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="23603521"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VasobotScreech" ID="{57E5F31C-0512-439B-860D-7B4F21C01267}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VasobotVoice" ID="{E2D42A41-7F44-40AB-BEC0-9DD6E39720F1}" ShortID="1038145331">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VasobotVoice" ID="{83E00D7B-3CE9-4268-A2D8-1F94F9497141}">
+											<Language>SFX</Language>
+											<AudioFile>VasobotVoice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="226662005"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VasobotVoice" ID="{83E00D7B-3CE9-4268-A2D8-1F94F9497141}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Tankamera" ID="{075AEFFA-B8C2-428C-821A-1460A18A6A2E}" ShortID="176902295">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="TankameraClick" ID="{4F221492-FEB5-4C14-8018-8BCAB87538B6}" ShortID="665483340">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TankameraClick" ID="{1270999F-140F-4B31-9C7A-A60175D3AE53}">
+											<Language>SFX</Language>
+											<AudioFile>TankameraClick.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="659644255"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TankameraClick" ID="{1270999F-140F-4B31-9C7A-A60175D3AE53}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TankameraFlash" ID="{D1F1E08D-50C8-4CAD-84A7-106EEAF4CAF8}" ShortID="347852049">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TankameraFlash" ID="{370023CA-8673-4758-85B8-DD9CCE015349}">
+											<Language>SFX</Language>
+											<AudioFile>TankameraFlash.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="272470573"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TankameraFlash" ID="{370023CA-8673-4758-85B8-DD9CCE015349}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TankameraStretch" ID="{6C67D7EE-C756-48F7-AD6B-C478E9923A93}" ShortID="145810671">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TankameraStretch" ID="{B93E1205-AA32-4878-82D4-76A7E34750BB}">
+											<Language>SFX</Language>
+											<AudioFile>TankameraStretch.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="722243678"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TankameraStretch" ID="{B93E1205-AA32-4878-82D4-76A7E34750BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TankameraVoice" ID="{A50D10AA-98C2-4DD4-8404-1BA19542ED13}" ShortID="320619055">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TankameraVoice" ID="{B6C23A1E-3897-452D-9F5D-AB29031CAAC5}">
+											<Language>SFX</Language>
+											<AudioFile>TankameraVoice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="7963076"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TankameraVoice" ID="{B6C23A1E-3897-452D-9F5D-AB29031CAAC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Robottito" ID="{48F0BB5D-2E13-42E9-9F93-10E93CE0E7D9}" ShortID="867123055">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="RobottitoScreech" ID="{1134E821-9FDE-45F7-9F87-DB391AFD61D8}" ShortID="530948508">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RobottitoScreech" ID="{679D3540-BE1B-4F32-9B92-0A33E6F1E8A1}">
+											<Language>SFX</Language>
+											<AudioFile>RobottitoScreech.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="692945261"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RobottitoScreech" ID="{679D3540-BE1B-4F32-9B92-0A33E6F1E8A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RobottitoVoice" ID="{88DB6566-EAF0-4AC8-AC0C-AE143E3C8BFD}" ShortID="786203779">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RobottitoVoice" ID="{C09AAED9-75B0-4467-98A8-4D167440FCBC}">
+											<Language>SFX</Language>
+											<AudioFile>RobottitoVoice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="598569625"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RobottitoVoice" ID="{C09AAED9-75B0-4467-98A8-4D167440FCBC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Walkman" ID="{88B89C18-0A72-41F7-8DE9-246F2B569B56}" ShortID="509218450">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="WalkmanVoice" ID="{F731C443-A1CE-4E32-A6E0-942DE934ACEA}" ShortID="736075607">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WalkmanVoice" ID="{6F599891-9B73-48B8-A791-71E28DCBAAA5}">
+											<Language>SFX</Language>
+											<AudioFile>WalkmanVoice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="833767037"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WalkmanVoice" ID="{6F599891-9B73-48B8-A791-71E28DCBAAA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WalkmanWheel1" ID="{08F40576-56BE-41FC-AB90-B15DC6D33AB3}" ShortID="109774693">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WalkmanWheel1" ID="{A119D255-02BB-4115-A912-93EF0142E732}">
+											<Language>SFX</Language>
+											<AudioFile>WalkmanWheel1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="394157526"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WalkmanWheel1" ID="{A119D255-02BB-4115-A912-93EF0142E732}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WalkmanWheel2" ID="{0C8917D8-20DC-42C9-912C-B414075B763C}" ShortID="929242797">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{3EFE7A83-7CD4-4CB0-BE79-6388ECB5D443}" WorkUnitID="{1BB7D3C5-9B47-4415-AD9D-7C0D6B139F17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Effects" ID="{B937A171-59F1-4548-B7A1-990E2BAF64F1}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WalkmanWheel2" ID="{A03C7F6B-0521-4D10-BCF1-8F826C54A098}">
+											<Language>SFX</Language>
+											<AudioFile>WalkmanWheel2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="660247687"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WalkmanWheel2" ID="{A03C7F6B-0521-4D10-BCF1-8F826C54A098}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{2D790445-C5EB-4EDC-90EC-BE7D8327666C}" ShortID="642941594">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Sound Name="DesertAmbience" ID="{55B21926-43B0-4DF6-AEA4-D470A3717582}" ShortID="569335360">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>45</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DC744D60-F403-46E8-8F00-87F2DC04B13E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{4BB0A8E1-53F5-444B-840C-BD00EEDAFA19}" WorkUnitID="{714CDAB0-5F2B-4EB3-9A30-DC1CB427146A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="411774__diegolar__desert-silence-at-night" ID="{EA9CC44D-8BF1-4574-BB26-2E1EE3056CB2}">
+									<Language>SFX</Language>
+									<AudioFile>411774__diegolar__desert-silence-at-night.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="275482945"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="411774__diegolar__desert-silence-at-night" ID="{EA9CC44D-8BF1-4574-BB26-2E1EE3056CB2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

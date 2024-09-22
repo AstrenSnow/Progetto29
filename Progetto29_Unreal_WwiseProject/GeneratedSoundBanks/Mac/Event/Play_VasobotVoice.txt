@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3005953256	Play_VasobotVoice			\Default Work Unit\Play_VasobotVoice	
+

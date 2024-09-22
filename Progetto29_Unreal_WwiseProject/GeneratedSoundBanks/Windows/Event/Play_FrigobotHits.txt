@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3552625942	Play_FrigobotHits			\Default Work Unit\Play_FrigobotHits	
+

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	60440862	Play_LennyVoice			\Default Work Unit\Play_LennyVoice	
+

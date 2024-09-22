@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "91084081",
+    "Type": "Event",
+    "GUID": "{F3C7F481-561D-49C8-AA61-C4E15FA2BE47}",
+    "Language": "SFX",
+    "Hash": "{761AC4BE-B635-7324-CF8F-9C1202492C34}",
+    "ObjectPath": "Play_LennySteps",
+    "ShortName": "Play_LennySteps",
+    "Path": "Event/Play_LennySteps.bnk",
+    "Media": [
+     {
+      "Id": "36411385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LennyStep2.wav",
+      "Path": "Media/36411385.wem",
+      "CachePath": "SFX/LennyStep2_818F3B66.wem"
+     },
+     {
+      "Id": "731836685",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LennyStep4.wav",
+      "Path": "Media/731836685.wem",
+      "CachePath": "SFX/LennyStep4_818F3B66.wem"
+     },
+     {
+      "Id": "849254034",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LennyStep1.wav",
+      "Path": "Media/849254034.wem",
+      "CachePath": "SFX/LennyStep1_818F3B66.wem"
+     },
+     {
+      "Id": "1029876831",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LennyStep3.wav",
+      "Path": "Media/1029876831.wem",
+      "CachePath": "SFX/LennyStep3_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "91084081",
+      "Name": "Play_LennySteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_LennySteps",
+      "GUID": "{F3C7F481-561D-49C8-AA61-C4E15FA2BE47}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.1250114",
+      "DurationMax": "3.1250114",
+      "MediaRefs": [
+       {
+        "Id": "36411385"
+       },
+       {
+        "Id": "731836685"
+       },
+       {
+        "Id": "849254034"
+       },
+       {
+        "Id": "1029876831"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E7FFEF38-1D2F-645D-402A-33B2C1870963}"
+ }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1834519321" Type="Event" GUID="{2D5E2FCD-A387-4AB4-89F9-2CE73F2E448D}" Language="SFX" Hash="{FD62E7EC-3ADC-9CCB-E157-439A0FBE4B50}">
+			<ObjectPath>Play_UIDeselect</ObjectPath>
+			<ShortName>Play_UIDeselect</ShortName>
+			<Path>Event/Play_UIDeselect.bnk</Path>
+			<Media>
+				<File Id="103350695" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UIDeselect.wav</ShortName>
+					<Path>Media/103350695.wem</Path>
+					<CachePath>SFX/UIDeselect_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1834519321" Name="Play_UIDeselect" ObjectPath="\Events\Default Work Unit\Play_UIDeselect" GUID="{2D5E2FCD-A387-4AB4-89F9-2CE73F2E448D}" DurationType="OneShot" DurationMin="1.75" DurationMax="1.75">
+					<MediaRefs>
+						<MediaRef Id="103350695"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F062624E-421E-C819-131B-FACF4B61E0AB}</FileHash>
+</SoundBanksInfo>

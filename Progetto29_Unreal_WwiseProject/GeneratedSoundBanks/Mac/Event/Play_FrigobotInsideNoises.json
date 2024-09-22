@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1917742037",
+    "Type": "Event",
+    "GUID": "{19970127-DC80-4572-96F7-E0E967240779}",
+    "Language": "SFX",
+    "Hash": "{9707BDA9-9B62-62D5-82C6-D022F0968068}",
+    "ObjectPath": "Play_FrigobotInsideNoises",
+    "ShortName": "Play_FrigobotInsideNoises",
+    "Path": "Event/Play_FrigobotInsideNoises.bnk",
+    "Media": [
+     {
+      "Id": "401754643",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FrigobotCling1.wav",
+      "Path": "Media/401754643.wem",
+      "CachePath": "SFX/FrigobotCling1_818F3B66.wem"
+     },
+     {
+      "Id": "601525541",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FrigobotCling2.wav",
+      "Path": "Media/601525541.wem",
+      "CachePath": "SFX/FrigobotCling2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1917742037",
+      "Name": "Play_FrigobotInsideNoises",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FrigobotInsideNoises",
+      "GUID": "{19970127-DC80-4572-96F7-E0E967240779}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "3.25",
+      "MediaRefs": [
+       {
+        "Id": "401754643"
+       },
+       {
+        "Id": "601525541"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F9AA3D3E-AA79-0181-AC16-930765036A89}"
+ }
+}

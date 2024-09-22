@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1917742037" Type="Event" GUID="{19970127-DC80-4572-96F7-E0E967240779}" Language="SFX" Hash="{9707BDA9-9B62-62D5-82C6-D022F0968068}">
+			<ObjectPath>Play_FrigobotInsideNoises</ObjectPath>
+			<ShortName>Play_FrigobotInsideNoises</ShortName>
+			<Path>Event/Play_FrigobotInsideNoises.bnk</Path>
+			<Media>
+				<File Id="401754643" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotCling1.wav</ShortName>
+					<Path>Media/401754643.wem</Path>
+					<CachePath>SFX/FrigobotCling1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="601525541" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotCling2.wav</ShortName>
+					<Path>Media/601525541.wem</Path>
+					<CachePath>SFX/FrigobotCling2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1917742037" Name="Play_FrigobotInsideNoises" ObjectPath="\Events\Default Work Unit\Play_FrigobotInsideNoises" GUID="{19970127-DC80-4572-96F7-E0E967240779}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="2" DurationMax="3.25">
+					<MediaRefs>
+						<MediaRef Id="401754643"/>
+						<MediaRef Id="601525541"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E3E57FB0-C778-6ADA-40EC-6A586D470063}</FileHash>
+</SoundBanksInfo>

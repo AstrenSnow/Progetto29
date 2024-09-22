@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3175633480" Type="Event" GUID="{2749595D-5535-46B7-9D47-FC2C0FD5DB47}" Language="SFX" Hash="{392C62D9-A97B-E6A8-2547-3F86BA421B0B}">
+			<ObjectPath>Play_FrigobotOpen</ObjectPath>
+			<ShortName>Play_FrigobotOpen</ShortName>
+			<Path>Event/Play_FrigobotOpen.bnk</Path>
+			<Media>
+				<File Id="886507411" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FrigobotOpen.wav</ShortName>
+					<Path>Media/886507411.wem</Path>
+					<CachePath>SFX/FrigobotOpen_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3175633480" Name="Play_FrigobotOpen" ObjectPath="\Events\Default Work Unit\Play_FrigobotOpen" GUID="{2749595D-5535-46B7-9D47-FC2C0FD5DB47}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="0.68750566" DurationMax="0.68750566">
+					<MediaRefs>
+						<MediaRef Id="886507411"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{39BB9AA6-3315-D759-B931-C071CB8D0B93}</FileHash>
+</SoundBanksInfo>

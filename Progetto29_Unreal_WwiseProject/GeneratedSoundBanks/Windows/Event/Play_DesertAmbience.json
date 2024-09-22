@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "742517425",
+    "Type": "Event",
+    "GUID": "{633D4A20-E2B8-45E4-94CA-E253DFD365DE}",
+    "Language": "SFX",
+    "Hash": "{1F82EB3C-AF47-5BD3-2F75-779B3E42F8A0}",
+    "ObjectPath": "Play_DesertAmbience",
+    "ShortName": "Play_DesertAmbience",
+    "Path": "Event/Play_DesertAmbience.bnk",
+    "Media": [
+     {
+      "Id": "275482945",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "411774__diegolar__desert-silence-at-night.wav",
+      "Path": "Media/275482945.wem",
+      "CachePath": "SFX/411774__diegolar__desert-silence-at-night_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "742517425",
+      "Name": "Play_DesertAmbience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_DesertAmbience",
+      "GUID": "{633D4A20-E2B8-45E4-94CA-E253DFD365DE}",
+      "DurationType": "OneShot",
+      "DurationMin": "606.89795",
+      "DurationMax": "606.89795",
+      "MediaRefs": [
+       {
+        "Id": "275482945"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{58412E92-E462-CC56-16DA-693A69366095}"
+ }
+}

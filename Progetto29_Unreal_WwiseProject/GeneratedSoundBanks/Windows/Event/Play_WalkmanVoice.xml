@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3133851159" Type="Event" GUID="{3BE25627-412D-4BD3-805B-67A501FA0EBA}" Language="SFX" Hash="{8249801A-A973-7028-8574-F67AD207FE8B}">
+			<ObjectPath>Play_WalkmanVoice</ObjectPath>
+			<ShortName>Play_WalkmanVoice</ShortName>
+			<Path>Event/Play_WalkmanVoice.bnk</Path>
+			<Media>
+				<File Id="833767037" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>WalkmanVoice.wav</ShortName>
+					<Path>Media/833767037.wem</Path>
+					<CachePath>SFX/WalkmanVoice_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3133851159" Name="Play_WalkmanVoice" ObjectPath="\Events\Default Work Unit\Play_WalkmanVoice" GUID="{3BE25627-412D-4BD3-805B-67A501FA0EBA}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3.1250114" DurationMax="3.1250114">
+					<MediaRefs>
+						<MediaRef Id="833767037"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4FC4FA6B-D460-CF6A-5E1F-71BF67479B0D}</FileHash>
+</SoundBanksInfo>

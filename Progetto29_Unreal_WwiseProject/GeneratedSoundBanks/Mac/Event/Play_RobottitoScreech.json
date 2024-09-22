@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "498405715",
+    "Type": "Event",
+    "GUID": "{6FE11404-E673-476A-9461-B083CDCB77D9}",
+    "Language": "SFX",
+    "Hash": "{83EE3B76-53A5-202C-BE49-F96D5EF6E689}",
+    "ObjectPath": "Play_RobottitoScreech",
+    "ShortName": "Play_RobottitoScreech",
+    "Path": "Event/Play_RobottitoScreech.bnk",
+    "Media": [
+     {
+      "Id": "692945261",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "RobottitoScreech.wav",
+      "Path": "Media/692945261.wem",
+      "CachePath": "SFX/RobottitoScreech_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "498405715",
+      "Name": "Play_RobottitoScreech",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_RobottitoScreech",
+      "GUID": "{6FE11404-E673-476A-9461-B083CDCB77D9}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "1.062517",
+      "DurationMax": "1.062517",
+      "MediaRefs": [
+       {
+        "Id": "692945261"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AEEE38E0-F64C-5A1E-3F62-E3A16AAA0762}"
+ }
+}

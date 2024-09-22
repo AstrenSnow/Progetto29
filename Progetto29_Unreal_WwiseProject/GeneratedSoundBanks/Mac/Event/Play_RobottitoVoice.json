@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1120350054",
+    "Type": "Event",
+    "GUID": "{D75A7C61-E56F-4F67-8AD9-A531AEBEB6AF}",
+    "Language": "SFX",
+    "Hash": "{B61363DB-9DA0-00D8-7868-E72A30DB3590}",
+    "ObjectPath": "Play_RobottitoVoice",
+    "ShortName": "Play_RobottitoVoice",
+    "Path": "Event/Play_RobottitoVoice.bnk",
+    "Media": [
+     {
+      "Id": "598569625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "RobottitoVoice.wav",
+      "Path": "Media/598569625.wem",
+      "CachePath": "SFX/RobottitoVoice_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1120350054",
+      "Name": "Play_RobottitoVoice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_RobottitoVoice",
+      "GUID": "{D75A7C61-E56F-4F67-8AD9-A531AEBEB6AF}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "3",
+      "DurationMax": "3",
+      "MediaRefs": [
+       {
+        "Id": "598569625"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{195C347D-FEA0-0057-EFEF-49B95DE84C42}"
+ }
+}

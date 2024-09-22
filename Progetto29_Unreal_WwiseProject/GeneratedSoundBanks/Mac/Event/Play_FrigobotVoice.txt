@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3209859598	Play_FrigobotVoice			\Default Work Unit\Play_FrigobotVoice	
+

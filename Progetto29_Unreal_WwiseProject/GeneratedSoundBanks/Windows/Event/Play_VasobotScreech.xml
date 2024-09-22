@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="366870017" Type="Event" GUID="{A2272D73-04E8-4245-B513-DE218B2D1A15}" Language="SFX" Hash="{66A43DA0-CADE-D750-AB7B-572426F8A4D0}">
+			<ObjectPath>Play_VasobotScreech</ObjectPath>
+			<ShortName>Play_VasobotScreech</ShortName>
+			<Path>Event/Play_VasobotScreech.bnk</Path>
+			<Media>
+				<File Id="23603521" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>VasobotScreech.wav</ShortName>
+					<Path>Media/23603521.wem</Path>
+					<CachePath>SFX/VasobotScreech_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="366870017" Name="Play_VasobotScreech" ObjectPath="\Events\Default Work Unit\Play_VasobotScreech" GUID="{A2272D73-04E8-4245-B513-DE218B2D1A15}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="1.8728839" DurationMax="1.8728839">
+					<MediaRefs>
+						<MediaRef Id="23603521"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{56082102-9C3F-2C77-C0E8-DD63CC2CED0B}</FileHash>
+</SoundBanksInfo>

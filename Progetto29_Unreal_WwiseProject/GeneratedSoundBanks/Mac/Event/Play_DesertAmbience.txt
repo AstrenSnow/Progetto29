@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	742517425	Play_DesertAmbience			\Default Work Unit\Play_DesertAmbience	
+

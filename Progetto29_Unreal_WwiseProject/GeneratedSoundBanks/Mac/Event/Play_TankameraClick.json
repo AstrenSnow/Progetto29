@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1821140902",
+    "Type": "Event",
+    "GUID": "{17490324-95B0-4EC1-97ED-9EB071A610BD}",
+    "Language": "SFX",
+    "Hash": "{D8FF10B5-1D6B-AF75-F428-957C7A186660}",
+    "ObjectPath": "Play_TankameraClick",
+    "ShortName": "Play_TankameraClick",
+    "Path": "Event/Play_TankameraClick.bnk",
+    "Media": [
+     {
+      "Id": "659644255",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TankameraClick.wav",
+      "Path": "Media/659644255.wem",
+      "CachePath": "SFX/TankameraClick_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1821140902",
+      "Name": "Play_TankameraClick",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TankameraClick",
+      "GUID": "{17490324-95B0-4EC1-97ED-9EB071A610BD}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "659644255"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FC8236DE-586A-B9E7-D48D-86856800A6A7}"
+ }
+}

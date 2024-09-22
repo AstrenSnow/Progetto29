@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3510061404	Play_FrigobotClose			\Default Work Unit\Play_FrigobotClose	
+

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	498405715	Play_RobottitoScreech			\Default Work Unit\Play_RobottitoScreech	
+

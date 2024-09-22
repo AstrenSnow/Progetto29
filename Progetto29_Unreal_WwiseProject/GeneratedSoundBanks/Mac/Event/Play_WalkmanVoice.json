@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3133851159",
+    "Type": "Event",
+    "GUID": "{3BE25627-412D-4BD3-805B-67A501FA0EBA}",
+    "Language": "SFX",
+    "Hash": "{8249801A-A973-7028-8574-F67AD207FE8B}",
+    "ObjectPath": "Play_WalkmanVoice",
+    "ShortName": "Play_WalkmanVoice",
+    "Path": "Event/Play_WalkmanVoice.bnk",
+    "Media": [
+     {
+      "Id": "833767037",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "WalkmanVoice.wav",
+      "Path": "Media/833767037.wem",
+      "CachePath": "SFX/WalkmanVoice_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3133851159",
+      "Name": "Play_WalkmanVoice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WalkmanVoice",
+      "GUID": "{3BE25627-412D-4BD3-805B-67A501FA0EBA}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "3.1250114",
+      "DurationMax": "3.1250114",
+      "MediaRefs": [
+       {
+        "Id": "833767037"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CE427E6B-6907-9D0B-76C3-6416D18F646B}"
+ }
+}
